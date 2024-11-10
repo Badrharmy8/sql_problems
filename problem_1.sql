@@ -1,4 +1,3 @@
--- Active: 1731101247513@@127.0.0.1@3306@leetcode
 -- table for sales
 create table Sales(
     transaction_id int,
