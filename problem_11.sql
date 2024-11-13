@@ -25,3 +25,4 @@ select a.match_no , a.match_date , a.audience
 from match_crowd a join match_crowd b
 where a.match_no in (select match_no from match_crowd where audience > 50000) 
 and a.match_no = b.match_no + 4 ;
+
